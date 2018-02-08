@@ -7,7 +7,7 @@ import secrets
 
 
 
-    #all the other shit you want to do should be under hear
+    #get authorization
 auth = tweepy.OAuthHandler(secrets.consKey, secrets.consSecret)
 auth.set_access_token(secrets.accessTokn, secrets.secretAccessTokn)
 bot = tweepy.API(auth)
